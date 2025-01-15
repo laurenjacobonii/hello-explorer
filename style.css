@@ -1,0 +1,49 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #333333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+p{
+    text-align: left;
+    margin-bottom: 60px;
+    max-width: 650px;
+}
+
+.flexpicture{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.earthimg1{
+    margin-right: 30px;
+    border-radius: 100%;
+    border: 10px solid white;
+}
+
+.moonimg1{
+    margin-left: 30px;
+}
+
+
+.earthimg{
+    margin-right: 30px;
+}
+
+.moonimg{
+    margin-left: 30px;
+    border-radius: 100%;
+    border: 10px solid white;
+
+}
